@@ -7,7 +7,7 @@ fi
 
 if [[ $1 == "-i" ]]; then
     cd ~/.config
-    if [[ $2 == "ssh"]]; then
+    if [[ $2 == "ssh" ]]; then
         git clone git@github.com:68mschmitt/nvim.git
     else
         git clone https://github.com/68mschmitt/nvim.git
